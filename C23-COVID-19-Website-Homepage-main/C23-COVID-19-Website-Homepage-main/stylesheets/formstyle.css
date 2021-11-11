@@ -1,0 +1,17 @@
+.test{
+    background-color: aquamarine;
+    width: 70%;
+    margin:auto;
+    padding: 20px;
+
+}
+.label{
+    text-transform: uppercase;
+    position: relative;
+}
+#name,#proff,#email,#state{
+    padding: 5px;
+    position: relative;
+    left:200px;
+    top: -50px;
+}

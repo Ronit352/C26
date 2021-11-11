@@ -1,0 +1,23 @@
+.timeline ul{
+width: 5px;
+margin:auto;
+
+}
+
+.timeline ul li{
+    background-color: darkgray;
+    padding: 10px;
+    width: 300px;
+    visibility:hidden;
+}
+.timeline ul li:nth-child(odd){
+  position: relative;  
+  left: -400px;
+}
+.timeline ul li:nth-child(even){
+    position: relative;  
+    right: -50px;
+  }
+  .timeline ul li.view{
+      visibility: visible;
+  }
